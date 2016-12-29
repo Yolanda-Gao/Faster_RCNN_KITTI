@@ -1,0 +1,12 @@
+239c239
+<     num_output: 12   # 2(bg/fg) * 6(anchors)
+---
+>     num_output: 12   # 2(bg/fg) * 2* 3(anchors)
+253c253
+<     num_output: 24   # 4 * 9(anchors)
+---
+>     num_output: 24   # 4 * 6(anchors)
+322c322
+<   reshape_param { shape { dim: 0 dim: 12 dim: -1 dim: 0 } }
+---
+>   reshape_param { shape { dim: 0 dim: 12  dim: -1 dim: 0 } }

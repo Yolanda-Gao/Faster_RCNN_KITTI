@@ -1,0 +1,32 @@
+11c11
+<     param_str: "'num_classes': 2"
+---
+>     param_str: "'num_classes': 21"
+46a47
+>     engine: CAFFE
+90a92
+>     engine: CAFFE
+239c241
+<     num_output: 12   # 2(bg/fg) * 2* 3(anchors)
+---
+>     num_output: 18   # 2(bg/fg) * 9(anchors)
+253c255
+<     num_output: 24   # 4 * 6(anchors)
+---
+>     num_output: 36   # 4 * 9(anchors)
+322c324
+<   reshape_param { shape { dim: 0 dim: 12 dim: -1 dim: 0 } }
+---
+>   reshape_param { shape { dim: 0 dim: 18 dim: -1 dim: 0 } }
+362c364
+<     param_str: "'num_classes': 2"
+---
+>     param_str: "'num_classes': 21"
+442c444
+<     num_output: 2
+---
+>     num_output: 21
+461c463
+<     num_output: 8
+---
+>     num_output: 84

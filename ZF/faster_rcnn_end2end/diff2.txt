@@ -1,0 +1,8 @@
+239c239
+<     num_output: 12   # 2(bg/fg) * 2* 3(anchors)
+---
+>     num_output: 12   # 2(bg/fg) * 6(anchors)
+253c253
+<     num_output: 24   # 4 * 6(anchors)
+---
+>     num_output: 24   # 4 * 9(anchors)
