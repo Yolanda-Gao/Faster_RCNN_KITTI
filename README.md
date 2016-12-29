@@ -14,3 +14,8 @@ ZF_multiscale
 ZF_res: residual net.
 ZF_combination: Combination of all. Doesn't work very well actaully.
 
+
+
+
+
+
